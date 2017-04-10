@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task09-报表系统</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="headerbar clearfix">
+        <div class="logo">
+            <img src="images/header-logo.gif" alt="报表logo">
+        </div>
+        <div class="search">
+            <input type="text"><a href="javascript:;">登录</a>
+        </div>
+    </div>
+</header>
+
+<section class="my-statement clearfix">
+
+    <div class="info">
+        <div class="user-info">
+            <div class="clearfix">
+                <div class="head-pic">
+                    <span></span>
+                </div>
+                <strong>ABC123</strong>
+            </div>
+            <div class="focus clearfix">
+                <ul>
+                    <li>
+                        <span>110</span>
+                        <span>收藏</span>
+                    </li>
+                    <li>
+                        <span>313</span>
+                        <span>粉丝</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="info-list">
+            <li class="current">
+                <a href="javascript:;"><i class="file-open"></i>个人报表</a>
+                <ul>
+                    <li>
+                        <a href="javascript:;"><i class="arrow"></i><i class="file-close"></i>文件一</a>
+                    </li>
+                    <li class="open">
+                        <a href="javascript:;"><i class="arrow-cur"></i><i class="file-cur"></i>文件二</a>
+                        <ul>
+                            <li class="select">
+                                <a href="javascript:;">
+                                    <i class="doc-open"></i>
+                                    文档1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="doc-close"></i>
+                                    文档2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i class="arrow"></i><i class="file-close"></i>文件三</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="star"></i>个人收藏</a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="share"></i>我的分享</a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="star"></i>图库</a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="star"></i>成长记录</a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="account"></i>账户信息</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="statement">
+        <div class="nav">
+            <ul>
+                <li><a href="#">C站</a></li>
+                <li>/</li>
+                <li><a href="#">个人报表</a></li>
+                <li>/</li>
+                <li><a href="#">文件一</a></li>
+                <li>/</li>
+                <li class="last-title"><a href="#">文档一</a></li>
+            </ul>
+        </div>
+
+        <div class="search-box">
+            <table>
+                <tr>
+                    <td width="50"><label for="search-item">查询项</label></td>
+                    <td width="120"><select class="select search_item" name="search_item"><option>第一项</option></select></td>
+                    <td width="50"><label for="buyer">买方</label></td>
+                    <td width="122"><select class="select maifang" name="maifang"><option>小A</option></select></td>
+                    <td width="50" rowspan="2"><div class="change"></div></td>
+                    <td width="50"><label for="date">日期</label></td>
+                    <td width="150" colspan="2"><input class="input date" name="date" type="text" value="2016-04-01"/></td>
+                    <td width="50"><label for="time-consuming">总耗时</label></td>
+                    <td width="100"><select class="select search-item" name="haoshi"><option>8天</option></select></td>
+                    <td width="50" rowspan="2"><div class="search-btn">搜索</div></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><label for="seller">卖方</label></td>
+                    <td><select class="select buyer" name="maifang"><option>小C</option></select></td>
+                    <td><label for="renshu">人数</label></td>
+                    <td ><select class="select man-count" name="renshu"><option>10人</option></select></td>
+                    <td><label for="chengjiao">成交项</label></td>
+                    <td colspan="2"><select class="select deal" name="deal"><option>10项</option></select></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="price-box">
+            <div class="price-left"></div>
+            <div class="price-item price-cur">
+                <div class="price-time">10:00 am</div>
+                <div class="price-num">1200</div>
+            </div>
+            <div class="price-item">
+                <div class="price-time">11:00 am</div>
+                <div class="price-num">1300</div>
+            </div>
+            <div class="price-item">
+                <div class="price-time">12:00 am</div>
+                <div class="price-num">1400</div>
+            </div>
+            <div class="price-item">
+                <div class="price-time">13:00 am</div>
+                <div class="price-num">1200</div>
+            </div>
+            <div class="price-item">
+                <div class="price-time">14:00 am</div>
+                <div class="price-num">1600</div>
+            </div>
+            <div class="price-item">
+                <div class="price-time">15:00 am</div>
+                <div class="price-num">1500</div>
+            </div>
+            <div class="price-right"></div>
+            <div class="price-search">历史查询</div>
+        </div>
+    </div>
+
+
+</section>
+
+</body>
+</html>

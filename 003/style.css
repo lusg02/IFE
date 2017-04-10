@@ -1,0 +1,55 @@
+.container {
+    margin:20px;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+}
+
+.logo {
+    background-color: #fff;
+    margin:20px;
+    width: 200px;
+    border: 1px solid #999;
+    float: left;
+}
+.logo img {
+    width:80px;
+    height:80px;
+    margin: 20px;
+}
+.logo span {
+    margin-top:20px;
+    margin-right:20px;
+    float:right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.article {
+    border: 1px solid #999;
+    padding: 20px;
+    margin-top:20px;
+    margin-left: 240px;
+    margin-right: 210px;
+    background-color: #fff;
+    position: absolute;
+}
+.article p {
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.section {
+    background-color: #fff;
+    margin:20px;
+    width: 120px;
+    border: 1px solid #999;
+    float: right;
+}
+.section img {
+    width:80px;
+    height:80px;
+    margin: 20px 20px 0px 20px;
+    border: 1px solid #999;
+}

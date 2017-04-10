@@ -1,0 +1,316 @@
+/*header*/
+header {
+    height: 56px;
+    background: #2189bf;
+}
+.header-bar {
+    width: 1194px;
+    margin: 0 auto;
+    padding-right: 86px;
+}
+header .logo {
+    float: left;
+    padding: 10px 0 0 50px;
+}
+header .search {
+    float: right;
+    padding-top: 14px;
+    padding-right: 94px;
+}
+header .search input {
+    width: 274px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    outline: none;
+    padding-left: 40px;
+    background: #fff url("../images/header-search.png") 14px 6px no-repeat;
+}
+header .search a {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 20px;
+    background: url("../images/header-login.png") no-repeat 0 6px;
+}
+
+/*section*/
+.my-statement {
+    width: 1280px;
+    margin: 0 auto;
+    background: #2a2e3d;
+}
+.info {
+    width: 260px;
+    float: left;
+}
+.info .user-info {
+    height: 132px;
+    padding-left: 32px;
+    padding-top: 18px;
+}
+.user-info .head-pic {
+    float: left;
+    width: 55px;
+    hight: 55px;
+    line-height: 55px;
+    margin-right: 18px;
+    margin-left: 12px;
+    border: 1px solid #e8e7e7;
+    text-align: center;
+    font-size: 0;
+    border-radius: 50%;
+}
+.head-pic span {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #b9babd;
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-info strong {
+    float: left;
+    line-height: 57px;
+    color: #ecebec;
+    font-size: 16px;
+}
+.focus {
+    margin-top: 24px;
+}
+.focus li {
+    width: 84px;
+    text-align: center;
+    float: left;
+    color: #67778b;
+    height: 28px;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: 'SimSun';
+}
+.focus li span:nth-child(1) {
+    font-size: 16px;
+    font-family: 'SimHei';
+}
+.focus li:nth-child(1) {
+    border-right: 2px solid #313545;
+}
+
+.info .info-list a {
+    color: #6e8096;
+    font-size: 12px;
+}
+.info-list i {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    position: relative;
+    top: 4px;
+}
+.info-list>li>a>i {
+    margin-right: 13px;
+}
+.info-list ul {
+    padding-left: 25px;
+}
+.info-list ul ul {
+    padding-left: 33px;
+}
+.info-list li {
+    min-height: 20px;
+    padding: 6px 0;
+}
+.info-list>li {
+    padding-left: 45px;
+    min-height: 36px;
+    line-height: 36px;
+}
+.info-list>li:hover {
+    background: #383d4e;
+}
+.info-list li a {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.info-list li.current {
+    background: #383d4e;
+    line-height: 20px;
+}
+.info-list li.current>a, .info-list li.open>a, .info-list li.select>a {
+    color: #ededf0;
+}
+
+i.file-open {
+    background: url("../images/file-open.png") no-repeat center;
+}
+i.arrow {
+    background: url("../images/arrow-close.png") no-repeat center;
+    margin-right: 7px;
+}
+i.arrow-cur {
+    background: url("../images/arrow-open.png") no-repeat center;
+    margin-right: 7px;
+}
+i.file-close {
+    background: url("../images/file-close.png") no-repeat center;
+}
+i.file-cur {
+    background: url("../images/file-cur.png") no-repeat center;
+}
+i.doc-open {
+    background: url("../images/doc-open.png") no-repeat center;
+}
+i.doc-close {
+    background: url("../images/doc-close.png") no-repeat center;
+}
+i.star {
+    background: url("../images/star.png") no-repeat center;
+}
+i.share {
+    background: url("../images/share.png") no-repeat center;
+}
+i.account {
+    background: url("../images/account.png") no-repeat center;
+}
+
+/*statement*/
+.statement {
+    float: left;
+    width: 1020px;
+    background: #eeeeed;
+}
+.statement .nav {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background: #fff;
+}
+.statement .nav li {
+    float: left;
+    line-height: 35px;
+    color: #b7b7b7;
+    margin-right: 10px;
+}
+.statement .nav li.last-title {
+    color: #75a0c6;
+}
+.statement .search-box {
+    height: 100%;
+    width: 900px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #dededf;
+    color: #b7b7b7;
+    padding: 15px 30px;
+}
+.statement .search-box table {
+    width: 800px;
+    height: 70px;
+}
+.search-box table select {
+    border: 1px solid #dededf;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 80px;
+    line-height: 25px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../images/arrow-d.png") no-repeat scroll 90% center transparent;
+    cursor: pointer;
+}
+.search-box table .input {
+    border: 1px solid #dededf;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 120px;
+    line-height: 25px;
+}
+ .buyer, .seller {
+    width: 150px;
+}
+.search-box table .change {
+    width: 28px;
+    height: 37px;
+    background: url("../images/change.png") no-repeat;
+    cursor: pointer;
+}
+.search-box table .deal {
+    width: 130px;
+}
+.search-box table .search-btn {
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    background: #388ac1;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.statement .price-box {
+    width: 960px;
+    height: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: #b7b7b7;
+}
+.price-box .price-left, .price-box .price-right {
+    width: 30px;
+    height: 100%;
+    margin-right: 5px;
+    background: #fff;
+    border: 1px solid #dededf;
+    float: left;
+}
+.price-box .price-left {
+    background: url("../images/arrow-left.png") no-repeat center;
+}
+.price-box .price-right {
+    background: url("../images/arrow-r.png") no-repeat center;
+}
+.price-box .price-item {
+    width: 120px;
+    height: 100%;
+    margin-right: 5px;
+    background: #fff;
+    border: 1px solid #dededf;
+    float: left;
+}
+.price-box .price-cur {
+    background: url("../images/top-line.png") repeat-x;
+    border-top: none;
+}
+
+.price-box .price-time {
+    margin: 13px 30px;
+    color: #323333;
+}
+.price-box .price-num {
+    padding-left: 10px;
+    margin-left: 30px;
+    color: #ec6500;
+    font-size: 25px;
+    background: url("../images/rmb.png") no-repeat left 10px;
+}
+.price-box .price-search {
+    width: 62px;
+    height: 40px;
+    padding-left: 60px;
+    padding-top: 30px;
+    background: url("../images/history.png") no-repeat 20px center;
+    border: 1px solid #dededf;
+    color: #323333;
+    float: left;
+    background: #fff;
+
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px;
+    /*
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+    overflow: hidden;
+    background: #ccc;
+}
+/*
+CSS五种垂直居中方法：https://www.qianduan.net/css-to-achieve-the-vertical-center-of-the-five-kinds-of-methods
+*/
+
+.quadrant {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: #fc0;
+    border-radius: 50%;
+}
+.q-top {
+    top: -100px;
+    left: -100px;
+}
+.q-bottom {
+    bottom: -100px;
+    right: -100px;
+}

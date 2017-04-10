@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #ededed;
+    font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header {
+    width: 100%;
+    background: #0663c0;
+}
+.navbar {
+    color: #fff;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+.navbar .navbar-header {
+    float: left;
+}
+.navbar .navbar-header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    font-size: 22px;
+}
+.navbar .navbar-menu {
+    float: right;
+}
+.navbar .navbar-menu ul li {
+    display: inline-block;
+    font-size: 12px;
+}
+.navbar .navbar-menu ul li:before {
+    content: "·";
+    margin-right: 3px;
+}
+.navbar .navbar-menu ul a {
+    color: #fff;
+    text-decoration: none;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.siderbar {
+    float: right;
+    width: 350px;
+    padding: 15px;
+    background-color: #fff;
+    border: 0 none;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.047);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.wrapper {
+    float: left;
+    width: 100%;
+    margin-right: -370px;
+}
+.main-content {
+    width: auto;
+    margin-right: 370px;
+}
+.main-content article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 0 none;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.047);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.main-content article .publish-info {
+    color: #999;
+    font-size: 12px;
+}
+.main-content article h2 {
+    font-size: 20px;
+    color: #696969;
+}
+.main-content article ul {
+    list-style: none;
+}
+.main-content article p {
+    text-indent: 40px;
+    line-height: 1.5;
+}
+.main-content article ol {
+    font-weight: bold;
+}
+.main-content article.img-grid figure {
+    display: inline-block;
+    margin: 10px;
+}
+figure {
+    border: 1px solid #999;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    width: 150px;
+}
+figure img {
+    margin-top: 10px;
+    width: 90%;
+}
+table {
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    font-size: 14px;
+}
+table tr {
+    border-bottom: 1px solid #ddd;
+}
+table tr th {
+    padding: 3px 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-right: 1px solid #ddd;
+    font-weight: bold;
+}
+table tr th:last-child {
+    border-right: 0;
+}
+table tr td {
+    padding: 3px 5px;
+    border: none;
+    border-left: 1px solid #ddd;
+}
+table tr td:last-child {
+    border-right: 1px solid #ddd;
+}
+table tr:last-child {
+    background-color: #ddd;
+    font-weight: bold;
+}
+table tr:last-child td {
+    border: none;
+}
+blockquote {
+    border-left: 3px solid #ddd;
+    padding-left: 20px;
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+form {
+    font-size: 14px;
+    margin: 20px auto;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group .control-label {
+    width: 35%;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: top;
+    line-height: 1.5;
+    font-size: 12px;
+}
+.form-group .form-tip {
+    color: #ddd;
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.form-group .control-label-offset {
+    margin-left: 35%;
+}
+.form-group .form-control {
+    display: inline-block;
+}
+.form-group .form-control textarea {
+    width: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0663c0;
+    border-color: #0086c0;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.btn-lg {
+    width: 100%;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+}
+footer {
+    background: #cecece;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar-menu {
+        display: none;
+    }
+}
