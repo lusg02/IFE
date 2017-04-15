@@ -14,7 +14,7 @@ var addEventHandler = function (elem, type, handler) {
 
 var validate_num = function (num) {
 	if ((/^[0-9]+$/).test(num)) {
-		return (num>=10 && num<=100);
+		return (num >= 10 && num <= 100);
 	}
 }
 
@@ -70,7 +70,7 @@ var queue = {
 	paint: function () {
 		var text = '';
 		this.arr.forEach(function (item) {
-			text += ('<div style="height:'+ parseInt(item)*2+'px">' + item + '</div>');
+			text += ('<div style="height:' + parseInt(item) * 2 + 'px">' + item + '</div>');
 		});
 		result.innerHTML = text;
 		// addDelEvent();
@@ -111,8 +111,8 @@ function bubbleSort() {
 		}
 		if (queue.arr[i] > queue.arr[i + 1]) {
 			var temp = queue.arr[i];
-			queue.arr[i] = queue.arr[i+1];
-			queue.arr[i+1] = temp;
+			queue.arr[i] = queue.arr[i + 1];
+			queue.arr[i + 1] = temp;
 			queue.paint();
 		}
 		i++;
