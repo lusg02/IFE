@@ -101,7 +101,7 @@ function bubbleSort() {
   var count = 0, i = 0;
   timer = setInterval(function () {
     if (count >= queue.arr.length) {
-    clearInterval(times);
+    clearInterval(timer);
   }
   if (i === queue.arr.length - 1 - count) {
     i = 0;
