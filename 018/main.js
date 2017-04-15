@@ -14,7 +14,7 @@ var addEventHandler = function (elem, type, handler) {
 
 var validate_num = function (num) {
 	return ((/^[0-9]+$/).test(num));
-}
+};
 
 var input_num = $('input_num'),
 		result = $('result'),
@@ -97,9 +97,7 @@ addEventHandler(result, 'click', function (event) {
 // }
 
 addEventHandler(left_in, 'click', function () {
-
 	var input = parseInt(input_num.value);
-
 	if (validate_num(input)) {
 		queue.leftIn(input);
 	} else {
