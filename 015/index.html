@@ -33,44 +33,44 @@
     return document.getElementById(id);
   };
 
-	/**
-	 * getData方法
-	 * 读取id为source的列表，获取其中城市名字及城市对应的空气质量
-	 * 返回一个数组，格式见函数中示例
-	 */
-	function getData() {
+/**
+ * getData方法
+ * 读取id为source的列表，获取其中城市名字及城市对应的空气质量
+ * 返回一个数组，格式见函数中示例
+ */
+  function getData() {
     /*
      coding here
      */
     var citiesData = $('source').getElementsByTagName('li');
     var data = [];
     Array.prototype.forEach.call(citiesData, function (element, index) {
-	    var city = element.innerHTML.substring(0, 2);
-	    var num = parseInt(element.getElementsByTagName('b')[0].innerHTML);
-	    data.push([city, num]);
-	    // console.log(data[index]);
-    });
-		return data;
-	}
-
-	/**
-	 * sortAqiData
-	 * 按空气质量对data进行从小到大的排序
-	 * 返回一个排序后的数组
-	 */
-	function sortAqiData(data) {
-    data.sort(function (d1, d2) {
-      return d1[1] - d2[1];
+      var city = element.innerHTML.substring(0, 2);
+      var num = parseInt(element.getElementsByTagName('b')[0].innerHTML);
+      data.push([city, num]);
+      // console.log(data[index]);
     });
     return data;
-	}
+}
 
-	/**
-	 * render
-	 * 将排好序的城市及空气质量指数，输出显示到id位resort的列表中
-	 * 格式见ul中的注释的部分
-	 */
-	function render(data) {
+/**
+ * sortAqiData
+ * 按空气质量对data进行从小到大的排序
+ * 返回一个排序后的数组
+ */
+  function sortAqiData(data) {
+    data.sort(function (d1, d2) {
+    return d1[1] - d2[1];
+    });
+    return data;
+  }
+
+/**
+ * render
+ * 将排好序的城市及空气质量指数，输出显示到id位resort的列表中
+ * 格式见ul中的注释的部分
+ */
+  function render(data) {
     var resort = $('resort');
     var items = '';
     data.forEach(function (element, index) {
@@ -78,24 +78,23 @@
       items += '<li>第' + (index+1) + '名:' + aqiData[0] + '空气质量：<b>' + aqiData[1] + '</b></li>'
     });
     resort.innerHTML = items;
-	}
+  }
 
-	function btnHandle() {
-		var aqiData = getData();
-		aqiData = sortAqiData(aqiData);
-		render(aqiData);
-	}
+  function btnHandle() {
+    var aqiData = getData();
+    aqiData = sortAqiData(aqiData);
+    render(aqiData);
+  }
 
 
-	function init() {
-
-		// 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
+  function init() {
+    // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
     $('sort-btn').addEventListener('click', function () {
       btnHandle();
     })
-	}
+}
 
-	init();
+  init();
 
 </script>
 </body>
