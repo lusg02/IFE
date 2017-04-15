@@ -23,3 +23,4 @@
 - [Task 017](https://lusg02.github.io/IFE/017/index.html)
 - [Task 018](https://lusg02.github.io/IFE/018/index.html)
 - [Task 019](https://lusg02.github.io/IFE/019/index.html)
+- [Task 020](https://lusg02.github.io/IFE/020/index.html)
