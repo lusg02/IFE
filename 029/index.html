@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 029</title>
+  <style>
+    input {
+      border-radius: 4px;
+      outline: none;
+    }
+
+    button {
+      color: #fff;
+      background-color: #2f79ba;
+      border-radius: 4px;
+      border: none;
+    }
+
+    table {
+      margin: 0 auto;
+    }
+
+    #info {
+      font-size: 12px;
+      color: #ccc;
+    }
+
+  </style>
+</head>
+<body>
+<table>
+  <tr>
+    <td>名称</td>
+    <td><input type="text" id="name"></td>
+    <td>
+      <button>验证</button>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td id="info">必填，长度为4-16个字符</td>
+    <td></td>
+  </tr>
+</table>
+
+<script>
+
+  var $ = function (el) {
+    return document.querySelector(el);
+  };
+
+  /**
+   * 计算输入内容的长度
+   * @param str 输入内容
+   * @returns {number} 返回长度
+   */
+  var input_length = function (str) {
+    var inputLength = 0;
+    for (var i = 0; i < str.length; i++) {
+      var unicode_num = str.charCodeAt(i);
+      if (unicode_num >= 0 && unicode_num <= 128) {
+        inputLength += 1;
+      } else {
+        inputLength += 2;
+      }
+    }
+    return inputLength;
+  };
+
+  /**
+   * 验证表单的对象
+   * @type {{isEmpty: rules.isEmpty, isShort: rules.isShort, isPass: rules.isPass}}
+   */
+  var validate = {
+    isEmpty: function (input) {
+      return (input_length(input) === 0);
+    },
+    isShort: function (input) {
+      return (input_length(input) > 0 && input_length(input) < 4);
+    },
+    isPass: function (input) {
+      return (input_length(input) >= 4 && input_length(input) <= 16);
+    }
+  };
+
+  var info = $('#info'),
+      name_input = $('#name'),
+      validate_btn = $('button');
+
+  var change_ui = function (input) {
+    if (validate.isEmpty(input)) {
+      info.style.color = '#d30215';
+      info.innerHTML = '姓名不能为空';
+      name_input.style.border = '1px solid #d30215';
+    }
+    if (validate.isShort(input)) {
+      info.style.color = '#d30215';
+      info.innerHTML = '请输入长度为4-16位字符';
+      name_input.style.border = '1px solid #d30215';
+    }
+    if (validate.isPass(input)) {
+      info.style.color = '#62c141';
+      info.innerHTML = '名称格式正确';
+      name_input.style.border = '1px solid #62c141';
+    }
+  };
+
+  validate_btn.addEventListener('click', function () {
+    var input_cont = name_input.value;
+    change_ui(input_cont);
+  })
+
+</script>
+</body>
+</html>
