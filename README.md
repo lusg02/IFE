@@ -5,8 +5,8 @@
 >
 > 课程多数题目的解决方案都不是唯一的，这和我们在实际工作中的情况也是一致的。因此，我们的要求不仅仅是实现设计稿的效果，更是要多去思考不同的解决方案，评估不同方案的优劣，然后使用在该场景下最优雅的方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。
 
-- [Task 001](https://lusg02.github.io/IFE/001/index.html)
-- [Task 002](https://lusg02.github.io/IFE/002/index.html)
+- [task001 demo](https://lusg02.github.io/IFE/001/index.html) [任务详情](https://github.com/lusg02/IFE/blob/master/001/README.md)
+- [task002 demo](https://lusg02.github.io/IFE/002/index.html)[任务详情](https://github.com/lusg02/IFE/blob/master/002/README.md)
 - [Task 003](https://lusg02.github.io/IFE/003/index.html)
 - [Task 004](https://lusg02.github.io/IFE/004/index.html)
 - [Task 005](https://lusg02.github.io/IFE/005/index.html)
