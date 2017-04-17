@@ -24,12 +24,12 @@
 
 ### Step2 JavaScript
 
-- [任务十三：零基础JavaScript编码（一）](https://github.com/lusg02/IFE/blob/master/012/README.md)  [demo](https://lusg02.github.io/IFE/013/index.html)
-- [任务十四：零基础JavaScript编码（二）](https://github.com/lusg02/IFE/blob/master/013/README.md)  [demo](https://lusg02.github.io/IFE/014/index.html)
-- [任务十五：零基础JavaScript编码（三）](https://github.com/lusg02/IFE/blob/master/014/README.md)  [demo](https://lusg02.github.io/IFE/015/index.html)
-- [任务十六：零基础JavaScript编码（四）](https://github.com/lusg02/IFE/blob/master/015/README.md)  [demo](https://lusg02.github.io/IFE/016/index.html)
-- [任务十七：基础JavaScript练习（五）](https://github.com/lusg02/IFE/blob/master/016/README.md)   [demo](https://lusg02.github.io/IFE/017/index.html)
-- [任务十八：基础JavaScript练习（一）](https://github.com/lusg02/IFE/blob/master/017/README.md)   [demo](https://lusg02.github.io/IFE/018/index.html)
-- [任务十九：基础JavaScript练习（二）](https://github.com/lusg02/IFE/blob/master/018/README.md)   [demo](https://lusg02.github.io/IFE/019/index.html)
-- [任务二十：基础JavaScript练习（三）](https://github.com/lusg02/IFE/blob/master/019/README.md)   [demo](https://lusg02.github.io/IFE/020/index.html)
-- [任务二十一：基础JavaScript练习（四）](https://github.com/lusg02/IFE/blob/master/020/README.md)  [demo](https://lusg02.github.io/IFE/021/index.html)
+- [任务十三：零基础JavaScript编码（一）](https://github.com/lusg02/IFE/blob/master/013/README.md)  [demo](https://lusg02.github.io/IFE/013/index.html)
+- [任务十四：零基础JavaScript编码（二）](https://github.com/lusg02/IFE/blob/master/014/README.md)  [demo](https://lusg02.github.io/IFE/014/index.html)
+- [任务十五：零基础JavaScript编码（三）](https://github.com/lusg02/IFE/blob/master/015/README.md)  [demo](https://lusg02.github.io/IFE/015/index.html)
+- [任务十六：零基础JavaScript编码（四）](https://github.com/lusg02/IFE/blob/master/016/README.md)  [demo](https://lusg02.github.io/IFE/016/index.html)
+- [任务十七：基础JavaScript练习（五）](https://github.com/lusg02/IFE/blob/master/017/README.md)   [demo](https://lusg02.github.io/IFE/017/index.html)
+- [任务十八：基础JavaScript练习（一）](https://github.com/lusg02/IFE/blob/master/018/README.md)   [demo](https://lusg02.github.io/IFE/018/index.html)
+- [任务十九：基础JavaScript练习（二）](https://github.com/lusg02/IFE/blob/master/019/README.md)   [demo](https://lusg02.github.io/IFE/019/index.html)
+- [任务二十：基础JavaScript练习（三）](https://github.com/lusg02/IFE/blob/master/020/README.md)   [demo](https://lusg02.github.io/IFE/020/index.html)
+- [任务二十一：基础JavaScript练习（四）](https://github.com/lusg02/IFE/blob/master/021/README.md)  [demo](https://lusg02.github.io/IFE/021/index.html)
