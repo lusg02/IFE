@@ -8,25 +8,28 @@
 
 ## Task
 
-- Step1    HTML&CSS
-  - [task001 demo](https://lusg02.github.io/IFE/001/index.html)  [任务一：零基础HTML编码](https://github.com/lusg02/IFE/blob/master/001/README.md)
-  - [task002 demo](https://lusg02.github.io/IFE/002/index.html)  [任务二：零基础HTML及CSS编码（一）](https://github.com/lusg02/IFE/blob/master/002/README.md)
-  - [task003 demo](https://lusg02.github.io/IFE/003/index.html)  [任务三：三栏式布局](https://github.com/lusg02/IFE/blob/master/003/README.md)
-  - [task004 demo](https://lusg02.github.io/IFE/004/index.html)  [任务四：定位和居中问题](https://github.com/lusg02/IFE/blob/master/004/README.md)
-  - [task005 demo](https://lusg02.github.io/IFE/005/index.html)  [任务二：零基础HTML及CSS编码（二）](https://github.com/lusg02/IFE/blob/master/005/README.md)
-  - [task006 demo](https://lusg02.github.io/IFE/006/index.html)  [任务六：通过HTML及CSS模拟报纸排版](https://github.com/lusg02/IFE/blob/master/006/README.md)
-  - [task007 demo](https://lusg02.github.io/IFE/007/index.html)  [任务七：实现常见的技术产品官网的页面架构及样式布局](https://github.com/lusg02/IFE/blob/master/007/README.md)
-  - [task008 demo](https://lusg02.github.io/IFE/008/index.html)  [任务八：响应式网格（栅格化）布局](https://github.com/lusg02/IFE/blob/master/008/README.md)
-  - [task009 demo](https://lusg02.github.io/IFE/009/index.html)  [任务九：使用HTML/CSS实现一个复杂页面](https://github.com/lusg02/IFE/blob/master/009/README.md)
-  - [task010 demo](https://lusg02.github.io/IFE/010/index.html)  [任务十：Flexbox 布局练习](https://github.com/lusg02/IFE/blob/master/010/README.md)
-  - [task012 demo](https://lusg02.github.io/IFE/012/index.html)  [任务十二：学习CSS 3的新特性](https://github.com/lusg02/IFE/blob/master/011/README.md)
-- Step2    JavaScript
-  - [task013 demo](https://lusg02.github.io/IFE/013/index.html)  [任务十三：零基础JavaScript编码（一）](https://github.com/lusg02/IFE/blob/master/012/README.md)
-  - [task014 demo](https://lusg02.github.io/IFE/014/index.html)  [任务十四：零基础JavaScript编码（二）](https://github.com/lusg02/IFE/blob/master/013/README.md)
-  - [task015 demo](https://lusg02.github.io/IFE/015/index.html)  [任务十五：零基础JavaScript编码（三）](https://github.com/lusg02/IFE/blob/master/014/README.md)
-  - [task016 demo](https://lusg02.github.io/IFE/016/index.html)  [任务十六：零基础JavaScript编码（四）](https://github.com/lusg02/IFE/blob/master/015/README.md)
-  - [task017 demo](https://lusg02.github.io/IFE/017/index.html)  [任务十七：基础JavaScript练习（五）](https://github.com/lusg02/IFE/blob/master/016/README.md)
-  - [task018 demo](https://lusg02.github.io/IFE/018/index.html)  [任务十八：基础JavaScript练习（一）](https://github.com/lusg02/IFE/blob/master/017/README.md)
-  - [task019 demo](https://lusg02.github.io/IFE/019/index.html)  [任务十九：基础JavaScript练习（二）](https://github.com/lusg02/IFE/blob/master/018/README.md)
-  - [task020 demo](https://lusg02.github.io/IFE/020/index.html)  [任务二十：基础JavaScript练习（三）](https://github.com/lusg02/IFE/blob/master/019/README.md)
-  - [task021 demo](https://lusg02.github.io/IFE/021/index.html)  [任务二十一：基础JavaScript练习（四）](https://github.com/lusg02/IFE/blob/master/020/README.md)
+### Step1 HTML&CSS
+
+- [任务一：零基础HTML编码](https://github.com/lusg02/IFE/blob/master/001/README.md)    [demo](https://lusg02.github.io/IFE/001/index.html)
+- [任务二：零基础HTML及CSS编码（一）](https://github.com/lusg02/IFE/blob/master/002/README.md) [demo](https://lusg02.github.io/IFE/002/index.html)
+- [任务三：三栏式布局](https://github.com/lusg02/IFE/blob/master/003/README.md)    [demo](https://lusg02.github.io/IFE/003/index.html)
+- [任务四：定位和居中问题](https://github.com/lusg02/IFE/blob/master/004/README.md)  [demo](https://lusg02.github.io/IFE/004/index.html)
+- [任务二：零基础HTML及CSS编码（二）](https://github.com/lusg02/IFE/blob/master/005/README.md) [demo](https://lusg02.github.io/IFE/005/index.html)
+- [任务六：通过HTML及CSS模拟报纸排版](https://github.com/lusg02/IFE/blob/master/006/README.md) [demo](https://lusg02.github.io/IFE/006/index.html)
+- [任务七：实现常见的技术产品官网的页面架构及样式布局](https://github.com/lusg02/IFE/blob/master/007/README.md)    [demo](https://lusg02.github.io/IFE/007/index.html)
+- [任务八：响应式网格（栅格化）布局](https://github.com/lusg02/IFE/blob/master/008/README.md) [demo](https://lusg02.github.io/IFE/008/index.html)
+- [任务九：使用HTML/CSS实现一个复杂页面](https://github.com/lusg02/IFE/blob/master/009/README.md)   [demo](https://lusg02.github.io/IFE/009/index.html)
+- [任务十：Flexbox 布局练习](https://github.com/lusg02/IFE/blob/master/010/README.md) [demo](https://lusg02.github.io/IFE/010/index.html)
+- [任务十二：学习CSS 3的新特性](https://github.com/lusg02/IFE/blob/master/011/README.md) [demo](https://lusg02.github.io/IFE/012/index.html)
+
+### Step2 JavaScript
+
+- [任务十三：零基础JavaScript编码（一）](https://github.com/lusg02/IFE/blob/master/012/README.md)  [demo](https://lusg02.github.io/IFE/013/index.html)
+- [任务十四：零基础JavaScript编码（二）](https://github.com/lusg02/IFE/blob/master/013/README.md)  [demo](https://lusg02.github.io/IFE/014/index.html)
+- [任务十五：零基础JavaScript编码（三）](https://github.com/lusg02/IFE/blob/master/014/README.md)  [demo](https://lusg02.github.io/IFE/015/index.html)
+- [任务十六：零基础JavaScript编码（四）](https://github.com/lusg02/IFE/blob/master/015/README.md)  [demo](https://lusg02.github.io/IFE/016/index.html)
+- [任务十七：基础JavaScript练习（五）](https://github.com/lusg02/IFE/blob/master/016/README.md)   [demo](https://lusg02.github.io/IFE/017/index.html)
+- [任务十八：基础JavaScript练习（一）](https://github.com/lusg02/IFE/blob/master/017/README.md)   [demo](https://lusg02.github.io/IFE/018/index.html)
+- [任务十九：基础JavaScript练习（二）](https://github.com/lusg02/IFE/blob/master/018/README.md)   [demo](https://lusg02.github.io/IFE/019/index.html)
+- [任务二十：基础JavaScript练习（三）](https://github.com/lusg02/IFE/blob/master/019/README.md)   [demo](https://lusg02.github.io/IFE/020/index.html)
+- [任务二十一：基础JavaScript练习（四）](https://github.com/lusg02/IFE/blob/master/020/README.md)  [demo](https://lusg02.github.io/IFE/021/index.html)
