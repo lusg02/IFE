@@ -34,5 +34,5 @@
 - [任务二十：基础JavaScript练习（三）](https://github.com/lusg02/IFE/blob/master/020/README.md)   [demo](https://lusg02.github.io/IFE/020/index.html)
 - [任务二十一：基础JavaScript练习（四）](https://github.com/lusg02/IFE/blob/master/021/README.md)  [demo](https://lusg02.github.io/IFE/021/index.html)
 - [任务二十九：表单（一）单个表单项的检验 ](https://github.com/lusg02/IFE/blob/master/029/README.md)  [demo](https://lusg02.github.io/IFE/029/index.html)
-- [任务散会：表单（二）多个表单项的动态校验 ](https://github.com/lusg02/IFE/blob/master/030/README.md)  [demo](https://lusg02.github.io/IFE/030/index.html)
+- [任务三十：表单（二）多个表单项的动态校验 ](https://github.com/lusg02/IFE/blob/master/030/README.md)  [demo](https://lusg02.github.io/IFE/030/index.html)
 - [任务三十一：表单（三）表单联动 ](https://github.com/lusg02/IFE/blob/master/031/README.md)  [demo](https://lusg02.github.io/IFE/031/index.html)
