@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 030</title>
+  <style>
+    table {
+      margin: 0 auto;
+    }
+    .indent {
+      text-indent: -2em;
+    }
+    tr:nth-child(even) {
+      display: inline-block;
+      width: 60px;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+    tr td:first-child {
+      width: 40px;
+      padding-right: 16px;
+    }
+    input {
+      width: 200px;
+      height: 24px;
+      line-height: 24px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+    }
+    p {
+      width: 200px;
+      display: inline-block;
+      font-size: 12px;
+      padding-left: 36px;
+    }
+  </style>
+</head>
+<body>
+<table>
+  <tr>
+    <td>名称</td>
+    <td><input type="text" id="name"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><p class="info-name"></p></td>
+  </tr>
+  <tr>
+    <td>密码</td>
+    <td><input type="password" id="password"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><p class="info-password"></p></td>
+  </tr>
+  <tr>
+    <td class="indent">密码确认</td>
+    <td><input type="password" id="confirm_pass"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><p class="info-confirm_pass"></p></td>
+  </tr>
+  <tr>
+    <td>邮箱</td>
+    <td><input type="email" id="e_mail"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><p class="info-e_mail"></p></td>
+  </tr>
+  <tr>
+    <td>手机</td>
+    <td><input type="text" id="phone"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><p class="info-phone"></p></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" value="提交" id="confirm"></td>
+  </tr>
+</table>
+
+<script src="main.js"></script>
+</body>
+</html>
