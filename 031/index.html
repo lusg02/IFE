@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 031</title>
+	<style>
+		.container {
+			margin: 50px auto;
+			text-align: center;
+		}
+		form {
+			margin-top: 50px;
+		}
+		select {
+			outline: none;
+			width: 120px;
+			height: 30px;
+			border-radius: 4px;
+		}
+		#company input {
+			border-radius: 4px;
+			height: 30px;
+			line-height: 30px;
+			border: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<p>选择在校生时，显示学校所在城市选择和学校名称选择表单</p>
+	<p>切换城市时，学校选项随之切换</p>
+	<form id="job">
+		<input type="radio" name="job">在校生
+		<input type="radio" name="job">非在校生
+	</form>
+	<div class="school_company">
+		<form action="" id="school" style="display: none">
+			<label>学校</label>
+			<select id="city">
+				<option value="西安" selected>西安</option>
+				<option value="上海">上海</option>
+				<option value="北京">北京</option>
+				<option value="杭州">杭州</option>
+			</select>
+			<select id="xa_school" class="school">
+				<option>西安电子</option>
+				<option>西交大</option>
+				<option>西工大</option>
+			</select>
+			<select id="sh_school" style="display: none;" class="school">
+				<option>复旦大学科大</option>
+				<option>上海交大</option>
+				<option>同济大学</option>
+			</select>
+			<select id="bg_school" style="display: none;" class="school">
+				<option>清华大学</option>
+				<option>北京大学</option>
+				<option>人名大学</option>
+			</select>
+			<select id="hz_school" style="display: none;" class="school">
+				<option>浙江大学</option>
+			</select>
+		</form>
+		<form style="display: none;" id="company">
+			<label>就业单位</label>
+			<input type="text">
+		</form>
+	</div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
