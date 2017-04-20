@@ -37,3 +37,4 @@
 - [任务三十：表单（二）多个表单项的动态校验 ](https://github.com/lusg02/IFE/blob/master/030/README.md)  [demo](https://lusg02.github.io/IFE/030/index.html)
 - [任务三十一：表单（三）表单联动 ](https://github.com/lusg02/IFE/blob/master/031/README.md)  [demo](https://lusg02.github.io/IFE/031/index.html)
 - [任务三十三：听指令的小方块（一） ](https://github.com/lusg02/IFE/blob/master/033/README.md)  [demo](https://lusg02.github.io/IFE/033/index.html)
+- [任务三十四：听指令的小方块（二） ](https://github.com/lusg02/IFE/blob/master/034/README.md)  [demo](https://lusg02.github.io/IFE/034/index.html)
